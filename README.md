@@ -1,6 +1,6 @@
-**# 1. Documentação do Projeto - Sistema de Recomendação Personalizado**
+# 1. Documentação do Projeto - Sistema de Recomendação Personalizado
 
-## 1. Nome da Aplicação
+## Nome da Aplicação
 Sistema de Recomendação Personalizado para Cursos Profissionalizantes
 
 ## 2. Integrantes do Grupo
@@ -23,10 +23,11 @@ Estrutura do Projeto:
 
 1. Clone o repositório:
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone <https://github.com/ruanJS/challenge---java>
+   cd <challenge - java>
 
-   spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
+
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
@@ -52,13 +53,13 @@ Copiar código
 npx react-native run-android
 # ou
 npx react-native run-ios
+
 4. Imagem dos Diagramas
-Diagrama de Classes
+Diagrama de Classes:
+![diagrama de classe](https://github.com/ruanJS/challenge---java/assets/125290791/9fba5d99-0506-45be-b14d-0414f9292cef)
 
 Diagrama de Sequência
-
-5. Link para Vídeo
-Apresentação da Proposta Tecnológica
+![diagrama de sequencia](https://github.com/ruanJS/challenge---java/assets/125290791/76410e75-39e9-4f8f-9297-2835e60688a9)
 
 6. Documentação da API
 Endpoints
@@ -68,12 +69,14 @@ GET /api/courses/{id}: Retorna um curso específico pelo ID.
 POST /api/courses: Cria um novo curso.
 PUT /api/courses/{id}: Atualiza um curso existente pelo ID.
 DELETE /api/courses/{id}: Exclui um curso existente pelo ID.
+
 Interesse
 GET /api/interests: Retorna todos os interesses cadastrados.
 GET /api/interests/{id}: Retorna um interesse específico pelo ID.
 POST /api/interests: Cria um novo interesse.
 PUT /api/interests/{id}: Atualiza um interesse existente pelo ID.
 DELETE /api/interests/{id}: Exclui um interesse existente pelo ID.
+
 Usuário
 GET /api/users: Retorna todos os usuários cadastrados.
 GET /api/users/{id}: Retorna um usuário específico pelo ID.

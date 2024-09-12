@@ -46,7 +46,7 @@ Siga as etapas abaixo para configurar e rodar a aplicação localmente:
    ```
 
 5. **Abra o navegador e acesse a aplicação:**
-   - URL: [http://localhost:3000](http://localhost:8000)
+   - URL: [http://localhost:8080](http://localhost:8080)
 
 ---
 
@@ -67,18 +67,18 @@ Assista ao vídeo que demonstra nossa proposta tecnológica e a funcionalidade d
 
 Abaixo estão os principais endpoints da API disponíveis para interação com o sistema:
 
-- **POST /users** - *http://localhost/users* (Criar usuário)
-- **GET /users/new** - *http://localhost/users/new* (Buscar novo usuário)
-- **PUT /api/users/{id}** - *http://localhost/api/users/{id}* (Atualizar um usuário pelo ID)
-- **DELETE /api/users/{id}** - *http://localhost/api/users/{id}* (Deletar um usuário pelo ID)
-- **GET /api/users/{id}** - *http://localhost/api/users/{id}* (Buscar um usuário pelo ID)
-- **POST /api/users** - *http://localhost/api/users* (Criar um usuário)
-- **GET /api/users** - *http://localhost/api/users* (Listar todos os usuários)
-- **PUT /courses/{id}** - *http://localhost/courses/{id}* (Atualizar um curso pelo ID)
-- **DELETE /courses/{id}** - *http://localhost/courses/{id}* (Deletar um curso pelo ID)
-- **GET /courses/{id}** - *http://localhost/courses/{id}* (Buscar um curso pelo ID)
-- **POST /courses** - *http://localhost/courses* (Criar um curso)
-- **GET /courses** - *http://localhost/courses* (Listar todos os cursos)
+- **POST /users** - *http://localhost:8080/users* (Criar usuário)
+- **GET /users/new** - *http://localhost:8080/users/new* (Buscar novo usuário)
+- **PUT /api/users/{id}** - *http://localhost:8080/api/users/{id}* (Atualizar um usuário pelo ID)
+- **DELETE /api/users/{id}** - *http://localhost:8080/api/users/{id}* (Deletar um usuário pelo ID)
+- **GET /api/users/{id}** - *http://localhost:8080/api/users/{id}* (Buscar um usuário pelo ID)
+- **POST /api/users** - *http://localhost:8080/api/users* (Criar um usuário)
+- **GET /api/users** - *http://localhost:8080/api/users* (Listar todos os usuários)
+- **PUT /courses/{id}** - *http://localhost:8080/courses/{id}* (Atualizar um curso pelo ID)
+- **DELETE /courses/{id}** - *http://localhost:8080/courses/{id}* (Deletar um curso pelo ID)
+- **GET /courses/{id}** - *http://localhost:8080/courses/{id}* (Buscar um curso pelo ID)
+- **POST /courses** - *http://localhost:8080/courses* (Criar um curso)
+- **GET /courses** - *http://localhost:8080/courses* (Listar todos os cursos)
 
 ---
 

@@ -1,50 +1,85 @@
-Documentação da Aplicação 🖥
-1. Recomendações de Educação e Desenvolvimento Profissional 
-Java Advanced - Sistema de Recomendação Personalizado
 
-2. Integrantes do Grupo 👥
-Ruan Guedes de Campos: Desenvolvedor Full Stack. Responsável pelo desenvolvimento do backend e integração com o banco de dados.
-Ana Beatriz Bento Silva: Desenvolvedora Frontend. Responsável pela criação da interface de usuário e experiência do usuário.
+# Java Advanced - Sistema de Recomendação Personalizado 📚💻
 
-4. Instruções para Rodar a Aplicação 🖥⚙
-Para rodar a aplicação, siga os passos abaixo:
-Clone o repositório do projeto:
-no terminal ou git bash:
-git clone https://github.com/ruanJS/Java_cs.git
+### **Documentação da Aplicação**
 
+Bem-vindo à documentação da aplicação **Java Advanced - Sistema de Recomendação Personalizado**, uma plataforma que oferece recomendações personalizadas de cursos e trilhas de desenvolvimento profissional, ajudando os usuários a aprimorar suas habilidades.
 
-Navegue até o diretório do projeto:
-no terminal ou git bash:
-cd Java_cs
+---
 
+## 1. Objetivo da Aplicação 📝
+A aplicação foi desenvolvida com o objetivo de fornecer recomendações personalizadas de educação e desenvolvimento profissional para seus usuários, utilizando técnicas avançadas de programação em Java.
 
-Instale as dependências do projeto:
-no terminal ou git bash:
-npm install
+---
 
+## 2. Integrantes do Grupo 👥
 
-Inicie o servidor de desenvolvimento:
-no terminal ou git bash:
-npm start
+- **Ruan Guedes de Campos**: RM551096 Desenvolvedor Full Stack. Responsável pelo desenvolvimento do backend e integração com o banco de dados.
+- **Ana Beatriz Bento Silva**: RM552536 Desenvolvedora Frontend. Responsável pela criação da interface de usuário e pela experiência do usuário (UX).
+- **Guilherme Costa Batista**: RM551173 Engenheiro de Dados. Responsável pelo pipeline de dados, coleta e estruturação das informações usadas no sistema de recomendação.
+- **Harthley Fernandes Teixeira Gomes**: RM551359 Especialista em Machine Learning. Responsável pelo desenvolvimento dos algoritmos de recomendação e análise de dados.
 
+---
 
-Abra o navegador e acesse http://localhost:3000 para visualizar a aplicação.
+## 3. Instruções para Rodar a Aplicação ⚙️
 
-4. Imagem dos Diagramas
+Siga as etapas abaixo para configurar e rodar a aplicação localmente:
 
+1. **Clone o repositório do projeto:**
+   ```bash
+   git clone https://github.com/ruanJS/Java_cs.git
+   ```
 
-5. Vídeo Apresentando a Proposta Tecnológica
-Assista ao vídeo de apresentação da nossa aplicação aqui.
+2. **Navegue até o diretório do projeto:**
+   ```bash
+   cd Java_cs
+   ```
 
-6. Listagem de Endpoints (Documentação da API)
-GET /api/projetos: Retorna todos os projetos cadastrados.
+3. **Instale as dependências necessárias:**
+   ```bash
+   npm install
+   ```
 
-GET /api/projetos/:id: Retorna um projeto específico pelo ID.
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm start
+   ```
 
-POST /api/projetos: Cria um novo projeto.
+5. **Abra o navegador e acesse a aplicação:**
+   - URL: [http://localhost:3000](http://localhost:8000)
 
-PUT /api/projetos/:id: Atualiza um projeto existente pelo ID.
+---
 
-DELETE /api/projetos/:id: Exclui um projeto existente pelo ID.
+## 4. Diagramas do Sistema 📊
 
+Aqui está uma imagem representando os principais diagramas da arquitetura do sistema e a lógica de funcionamento. _(Adicione a imagem do diagrama aqui)_
 
+---
+
+## 5. Vídeo Apresentando a Proposta Tecnológica 🎥
+
+Assista ao vídeo que demonstra nossa proposta tecnológica e a funcionalidade da aplicação:
+- **[Link para o vídeo](https://www.youtube.com/watch?v=B9PkPyY_2CY)** 
+
+---
+
+## 6. Documentação da API (Listagem de Endpoints) 📑
+
+Abaixo estão os principais endpoints da API disponíveis para interação com o sistema:
+
+- **POST /users** - *http://localhost/users* (Criar usuário)
+- **GET /users/new** - *http://localhost/users/new* (Buscar novo usuário)
+- **PUT /api/users/{id}** - *http://localhost/api/users/{id}* (Atualizar um usuário pelo ID)
+- **DELETE /api/users/{id}** - *http://localhost/api/users/{id}* (Deletar um usuário pelo ID)
+- **GET /api/users/{id}** - *http://localhost/api/users/{id}* (Buscar um usuário pelo ID)
+- **POST /api/users** - *http://localhost/api/users* (Criar um usuário)
+- **GET /api/users** - *http://localhost/api/users* (Listar todos os usuários)
+- **PUT /courses/{id}** - *http://localhost/courses/{id}* (Atualizar um curso pelo ID)
+- **DELETE /courses/{id}** - *http://localhost/courses/{id}* (Deletar um curso pelo ID)
+- **GET /courses/{id}** - *http://localhost/courses/{id}* (Buscar um curso pelo ID)
+- **POST /courses** - *http://localhost/courses* (Criar um curso)
+- **GET /courses** - *http://localhost/courses* (Listar todos os cursos)
+
+---
+
+### Fique à vontade para contribuir ou reportar problemas diretamente no repositório! 🚀

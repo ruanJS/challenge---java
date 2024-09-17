@@ -37,12 +37,12 @@ Siga as etapas abaixo para configurar e rodar a aplicação localmente:
 
 3. **Instale as dependências necessárias:**
    ```bash
-   npm install
+   mvn uptade package
    ```
 
 4. **Inicie o servidor de desenvolvimento:**
    ```bash
-   npm start
+   abra com inteliJ ou eclipse
    ```
 
 5. **Abra o navegador e acesse a aplicação:**
